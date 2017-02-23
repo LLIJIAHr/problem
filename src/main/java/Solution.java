@@ -114,8 +114,21 @@ public class Solution {
             }
         }
         for (int i = 0; i < videos.length; i++) {
+            BitSet bitSet = videos[i];
             for (int j = 0; j < factor; j++) {
+                int index = bitSet.nextSetBit(random.nextInt(bitSet.length()));
+                if (index != -1) {
+                    bitSet.set(index, false);
+                    capacity[i] += videoSizes[index];
+                }
+            }
 
+            for (int j = 0; j < factor * 2; j++) {
+                int index = bitSet.nextClearBit(random.nextInt(bitSet.length()));
+                if (index != -1 && (capacity[i] - videoSizes[index]) >= 0) {
+                    bitSet.set(index, true);
+                    capacity[i] -= videoSizes[index];
+                }
             }
         }
         return newSolution;
