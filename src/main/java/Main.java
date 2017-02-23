@@ -1,6 +1,8 @@
 import java.io.*;
 import java.util.Comparator;
+import java.util.Map;
 import java.util.Scanner;
+import java.util.TreeMap;
 
 public class Main
 {
@@ -24,10 +26,18 @@ public class Main
             endpoint.dataCenterLatency = in.nextInt();
             int k = in.nextInt();
             endpoint.caches = new int[k];
-            endpoint.latencies = new int[k];
+            endpoint.scores = new int[k];
+            TreeMap<Integer, Integer> caches = new TreeMap<Integer, Integer>(Comparator.<Integer>reverseOrder());
             for (int j = 0; j < k; j++) {
-                endpoint.caches[j] = in.nextInt();
-                endpoint.latencies[j] = in.nextInt();
+                int cacheId = in.nextInt();
+                int cacheLatency = endpoint.dataCenterLatency - in.nextInt();
+                caches.put(cacheLatency, cacheId);
+            }
+            int j = 0;
+            for (Map.Entry<Integer, Integer> entry : caches.entrySet()) {
+                endpoint.scores[j] = entry.getKey();
+                endpoint.caches[j] = entry.getValue();
+                j++;
             }
             endpoints[i] = endpoint;
         }

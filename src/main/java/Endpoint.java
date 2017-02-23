@@ -3,6 +3,6 @@
  */
 public class Endpoint {
     public int[] caches;
-    public int[] latencies;
+    public int[] scores;
     public int dataCenterLatency;
 }
