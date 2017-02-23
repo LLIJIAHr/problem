@@ -59,15 +59,28 @@ public class Main
 
         Solution solution = null;
 
-        int maxScore = 0;
+        long maxScore = 0;
         for (int i = 0; i < 10; i++)
         {
             final Solution generate = generator.generate(v, videos, c, x);
-            if (generate.score(endpoints, requests) > maxScore)
+            final long score = generate.score(endpoints, requests);
+            final int requestCount = Stream.of(requests).mapToInt(Request::getN).sum();
+            if (score > maxScore)
             {
                 solution = generate;
+
+                System.out.println("Avg Score = " + (score * 1000 / requestCount));
+
+                writeToFile(solution);
+
+                maxScore = score;
             }
         }
+
+
+        final HillClimb hillClimb = new HillClimb();
+
+        hillClimb.optimize(solution, 1000, videos, x, endpoints, requests);
 
         final long score = solution.score(endpoints, requests);
         System.out.println("Score = " + score);
@@ -75,9 +88,6 @@ public class Main
         final int requestCount = Stream.of(requests).mapToInt(Request::getN).sum();
         System.out.println("Avg Score = " + (score * 1000 / requestCount));
 
-        solution.print(new OutputStreamWriter(System.out));
-
-        writeToFile(solution);
     }
 
     private static void writeToFile(Solution solution) throws IOException
