@@ -6,7 +6,10 @@ import java.util.stream.Stream;
 public class RandomSolutionGenerator
 {
     public Solution generate(int videoCount, int[] videos, int cacheCount, int cacheSize) {
-        final Random random = new Random();
+        final long seed = System.currentTimeMillis();
+
+        System.out.println("Seed = " + seed);
+        final Random random = new Random(seed);
 
 
         Set<Integer>[] solution = new Set[cacheCount];
