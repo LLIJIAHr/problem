@@ -51,8 +51,18 @@ public class Main
             requests[i] = request;
         }
 
-        final FileWriter out = new FileWriter(new File("result.txt"));
+        final Solution solution = new Solution(v, new int[][]{
+                new int[]{2},
+                new int[]{3, 1},
+                new int[]{0, 1}
+        });
 
-        out.close();
+        final long score = solution.score(endpoints, requests);
+        System.out.println("Score = " + score);
+        System.out.println("Avg Score = " + (score / r));
+
+        solution.print(new OutputStreamWriter(System.out));
+
+        System.out.println();
     }
 }

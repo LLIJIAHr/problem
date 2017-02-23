@@ -1,11 +1,42 @@
 import java.io.IOException;
 import java.io.Writer;
 import java.util.BitSet;
+import java.util.Set;
 
 public class Solution
 {
     private int videoCount;
     private BitSet[] videos;
+
+    public Solution(int videoCount, int[][] caches)
+    {
+        this.videoCount = videoCount;
+
+        videos = new BitSet[caches.length];
+        for (int i = 0; i < caches.length; i++)
+        {
+            videos[i] = new BitSet(videoCount);
+            for (int video : caches[i])
+            {
+                videos[i].set(video);
+            }
+        }
+    }
+
+    public Solution(int videoCount, Set<Integer>[] caches)
+    {
+        this.videoCount = videoCount;
+
+        videos = new BitSet[caches.length];
+        for (int i = 0; i < caches.length; i++)
+        {
+            videos[i] = new BitSet(videoCount);
+            for (int video : caches[i])
+            {
+                videos[i].set(video);
+            }
+        }
+    }
 
     public long score(Endpoint[] endpoints, Request[] requests)
     {
@@ -35,7 +66,7 @@ public class Solution
     {
         try
         {
-            writer.write(String.valueOf(videos.length) + "/n");
+            writer.write(String.valueOf(videos.length) + "\n");
             for (int i = 0; i < videos.length; i++)
             {
                 writer.write(String.valueOf(i) + " ");
@@ -49,18 +80,11 @@ public class Solution
                 }
                 writer.write("\n");
             }
+            writer.flush();
         }
         catch (IOException e)
         {
             throw new RuntimeException(e);
         }
-    }
-
-    @Override
-    public String toString()
-    {
-        final StringBuilder result = new StringBuilder();
-
-        return
     }
 }
