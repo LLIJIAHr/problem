@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79bf8bb4-8916-4b4b-8ac5-46032b57ae17" name="Default" comment="" />
+    <list default="true" id="79bf8bb4-8916-4b4b-8ac5-46032b57ae17" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Solution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Endpoint.java" afterPath="$PROJECT_DIR$/src/main/java/Endpoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Request.java" afterPath="$PROJECT_DIR$/src/main/java/Request.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -20,12 +26,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="result.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/result.txt">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="350">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,6 +46,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -333,7 +344,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test.in" />
+        <option value="$PROJECT_DIR$/src/main/java/Scorer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Request.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Endpoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Solution.java" />
       </list>
     </option>
   </component>
@@ -344,10 +359,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="733" />
+    <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -410,6 +425,24 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -417,9 +450,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -435,6 +468,133 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="FullScreen" value="true" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.standard" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Main.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Endpoint.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Request.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/kittens.in</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/test.in</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -864,15 +1024,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487870253873</updated>
-      <workItem from="1487870255448" duration="776000" />
+      <workItem from="1487870255448" duration="5328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="776000" />
+    <option name="totallyTimeSpent" value="5328000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="733" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -893,8 +1053,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2890411" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -911,6 +1071,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -923,10 +1101,58 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kittens.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/me_at_the_zoo.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trending_today.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videos_worth_spreading.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/io/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="222" column="18" lean-forward="false" selection-start-line="222" selection-start-column="18" selection-end-line="222" selection-end-column="18" />
+        <state relative-caret-position="354">
+          <caret line="106" column="16" lean-forward="false" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
           <folding>
             <marker date="1481605182000" expanded="false" signature="0:215" ph="/.../" />
             <marker date="1481605182000" expanded="true" signature="236:833" ph="/**...*/" />
@@ -959,30 +1185,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Scorer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="30">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
-            <marker date="1487870924000" expanded="true" signature="7:43" ph="..." />
-            <marker date="1487870924000" expanded="true" signature="131:364" ph="{...}" />
+            <marker date="1487877121000" expanded="true" signature="0:36" ph="/**...*/" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.in">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Endpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="60">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <marker date="1487877121000" expanded="true" signature="0:36" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result.txt">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/BitSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <folding>
+            <marker date="1481605182000" expanded="false" signature="0:215" ph="/.../" />
+            <marker date="1481605182000" expanded="false" signature="244:411" ph="..." />
+            <marker date="1481605182000" expanded="true" signature="413:1627" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="2249:2507" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="2645:2723" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="2755:2829" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="2877:3029" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="3226:3296" ph="/**...*/" />
+            <marker date="1481605182000" expanded="false" signature="3343:3354" ph=" { " />
+            <marker date="1481605182000" expanded="false" signature="3395:3401" ph=" }" />
+            <marker date="1481605182000" expanded="true" signature="3407:3477" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="3513:3716" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="3722:3952" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="3994:4223" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="4229:4308" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="4329:4400" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="4406:4778" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="4808:5016" ph="{...}" />
+            <marker date="1481605182000" expanded="false" signature="5055:5066" ph=" { " />
+            <marker date="1481605182000" expanded="false" signature="5107:5113" ph=" }" />
+            <marker date="1481605182000" expanded="true" signature="5119:5256" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="5290:5392" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="5398:6032" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="6080:6232" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="6238:7019" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="7068:7289" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="7295:7926" ph="/**...*/" />
+            <marker date="1481605182000" expanded="false" signature="7973:7984" ph=" { " />
+            <marker date="1481605182000" expanded="false" signature="8030:8036" ph=" }" />
+            <marker date="1481605182000" expanded="true" signature="8042:8819" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="8868:9349" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="9355:9841" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="9874:10369" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="10375:10867" ph="/**...*/" />
+            <marker date="1481605182000" expanded="false" signature="10899:10910" ph=" { " />
+            <marker date="1481605182000" expanded="false" signature="10950:10956" ph=" }" />
+            <marker date="1481605182000" expanded="true" signature="10962:11095" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="11147:11426" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="11432:11732" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="11774:11957" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="11963:12048" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="12112:12511" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="12517:12773" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="12809:13103" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="13109:13616" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="13666:14607" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="14183:14241" ph="//..." />
+            <marker date="1481605182000" expanded="true" signature="14613:14825" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="14860:15144" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="15150:15410" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="15460:15555" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="15561:16042" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="16091:17062" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="16650:16708" ph="//..." />
+            <marker date="1481605182000" expanded="true" signature="17068:17611" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="17675:17790" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="17796:18032" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="18069:18392" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="18398:18888" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="18939:20030" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="19613:19671" ph="//..." />
+            <marker date="1481605182000" expanded="true" signature="20036:20133" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="20158:20233" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="20239:20667" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="20705:20991" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="20997:21565" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="21616:23084" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="23090:23925" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="23967:24489" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="24495:24857" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="24901:25557" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="24911:25003" ph="//..." />
+            <marker date="1481605182000" expanded="true" signature="25563:26386" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="26432:27056" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="27062:27627" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="27675:28297" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="28303:28589" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="28614:28803" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="28809:29014" ph="/**...*/" />
+            <marker date="1481605182000" expanded="false" signature="29043:29054" ph=" { " />
+            <marker date="1481605182000" expanded="false" signature="29077:29083" ph=" }" />
+            <marker date="1481605182000" expanded="true" signature="29089:29445" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="29488:29670" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="29676:29868" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="29898:30035" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="30041:30420" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="30453:30782" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="30788:31150" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="31182:31899" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="31905:32482" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="32515:33174" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="33180:33433" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="33469:33707" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="33713:34351" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="34378:34528" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="34534:34791" ph="/**...*/" />
+            <marker date="1481605182000" expanded="false" signature="34813:34824" ph=" { " />
+            <marker date="1481605182000" expanded="false" signature="34860:34866" ph=" }" />
+            <marker date="1481605182000" expanded="true" signature="34872:35513" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="35552:36023" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="36029:36328" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="36355:36689" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="36695:36925" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="36956:37100" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="37106:37211" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="37290:37501" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="37507:37611" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="37712:38170" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="37835:37982" ph="//..." />
+            <marker date="1481605182000" expanded="true" signature="38176:39077" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="39107:39734" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="39740:40340" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="40371:41335" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="40437:40917" ph="{...}" />
+            <marker date="1481605182000" expanded="false" signature="40536:40555" ph=" { " />
+            <marker date="1481605182000" expanded="false" signature="40573:40587" ph=" }" />
+            <marker date="1481605182000" expanded="true" signature="40644:40907" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1487878668000" expanded="true" signature="7:72" ph="..." />
+            <marker date="1487878668000" expanded="true" signature="160:1452" ph="{...}" />
+            <marker date="1487878668000" expanded="true" signature="1425:1452" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

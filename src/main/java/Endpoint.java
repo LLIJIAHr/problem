@@ -1,5 +1,3 @@
-package main.java;
-
 /**
  * @author Anton Chernetskij
  */
