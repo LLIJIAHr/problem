@@ -11,12 +11,14 @@ public class HillClimb
         for (int i = 0; i < N; i++)
         {
             final Solution mutate = solution.mutate(videoSizes, cacheSize, random.nextInt(16));
-            final long score = solution.score(endpoints, requests);
+            final long score = mutate.score(endpoints, requests);
 
             if (score > bestScore)
             {
                 bestScore = score;
+                bestSolution = mutate;
 
+                System.out.println("Found better solution. Score = " + score);
             }
 
         }
