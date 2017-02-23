@@ -27,7 +27,7 @@ public class Main
             int k = in.nextInt();
             endpoint.caches = new int[k];
             endpoint.scores = new int[k];
-            TreeMap<Integer, Integer> caches = new TreeMap<Integer, Integer>(Comparator.<Integer>reverseOrder());
+            TreeMap<Integer, Integer> caches = new TreeMap<>(Comparator.<Integer>reverseOrder());
             for (int j = 0; j < k; j++) {
                 int cacheId = in.nextInt();
                 int cacheLatency = endpoint.dataCenterLatency - in.nextInt();

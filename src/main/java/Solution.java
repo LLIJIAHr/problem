@@ -1,15 +1,18 @@
 import java.io.IOException;
 import java.io.Writer;
+import java.util.Arrays;
 import java.util.BitSet;
+import java.util.Random;
 import java.util.Set;
 
-public class Solution
-{
+public class Solution {
     private int videoCount;
     private BitSet[] videos;
 
-    public Solution(int videoCount, int[][] caches)
-    {
+    private Solution() {
+    }
+
+    public Solution(int videoCount, int[][] caches) {
         this.videoCount = videoCount;
 
         videos = new BitSet[caches.length];
@@ -86,5 +89,35 @@ public class Solution
         {
             throw new RuntimeException(e);
         }
+    }
+
+    @Override
+    protected Solution clone() {
+        Solution solution = new Solution();
+        solution.videoCount = this.videoCount;
+        solution.videos = new BitSet[this.videos.length];
+        for (int i = 0; i < videos.length; i++) {
+            solution.videos[i] = (BitSet) videos[i].clone();
+        }
+        return solution;
+    }
+
+    public Solution mutate(int[] videoSizes, int x, int factor) {
+        Solution newSolution = this.clone();
+        Random random = new Random();
+        int[] capacity = new int[videos.length];
+        Arrays.fill(capacity, x);
+        for (int i = 0; i < videos.length; i++) {
+            BitSet videoSet = videos[i];
+            for (int j = 0; j < videoSet.length(); j++) {
+                capacity[i] -= videoSet.get(j) ? videoSizes[j] : 0;
+            }
+        }
+        for (int i = 0; i < videos.length; i++) {
+            for (int j = 0; j < factor; j++) {
+
+            }
+        }
+        return newSolution;
     }
 }
